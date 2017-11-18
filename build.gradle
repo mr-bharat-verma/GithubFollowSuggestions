@@ -22,6 +22,18 @@ allprojects {
     }
 }
 
+ext {
+    v = [
+
+        kotlin       : '1.1.51',
+        okhttp3      : '3.9.0',
+        retrofit     : '2.0.0',
+        rxAndroid    : '2.0.1',
+        rxJava       : '2.1.6',
+        rxJavaAdapter: '1.0.0'
+    ]
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
