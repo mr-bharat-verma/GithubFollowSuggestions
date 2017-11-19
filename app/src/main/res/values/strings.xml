@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GithubFollowSuggestions</string>
+    <string name="follow_link"><![CDATA[<a href="%1$s">follow</a>]]></string>
 </resources>
