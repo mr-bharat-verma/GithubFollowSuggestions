@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:bind="http://schemas.android.com/apk/res-auto">
 
     <data>
 
@@ -8,6 +9,18 @@
 
         <variable
             name="dataPresent"
+            type="Boolean"/>
+
+        <variable
+            name="hasData1"
+            type="Boolean"/>
+
+        <variable
+            name="hasData2"
+            type="Boolean"/>
+
+        <variable
+            name="hasData3"
             type="Boolean"/>
     </data>
 
@@ -63,15 +76,15 @@
 
             <include
                 android:id="@+id/item_1"
-                layout="@layout/item_github_user"/>
+                layout="@layout/item_user"/>
 
             <include
                 android:id="@+id/item_2"
-                layout="@layout/item_github_user"/>
+                layout="@layout/item_user"/>
 
             <include
                 android:id="@+id/item_3"
-                layout="@layout/item_github_user"/>
+                layout="@layout/item_user"/>
 
         </LinearLayout>
     </LinearLayout>
